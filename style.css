@@ -1,4 +1,12 @@
 
+
+
+
+        h1{
+            color: #1C5D99;
+            
+
+        }
         body{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
@@ -6,11 +14,13 @@
         #desenv{
             text-decoration: underline;
             background-color: aliceblue;
+            font-style: italic;
         }
 
 
         ul {
             line-height: 25px;
+            
         }
 
         ol {
@@ -24,4 +34,12 @@
 
         h3{
             background-color: lightslategray;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .click{
+            color: #222222;
         }
