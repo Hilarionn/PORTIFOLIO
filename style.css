@@ -8,6 +8,7 @@
         }
         #desenv{
             text-decoration: underline;
+            
             background-color: aliceblue;
             
         }
@@ -28,4 +29,11 @@
 
         h3{
             background-color: lightslategray;
+        }
+
+        li:hover{
+            background-color: lightblue;
+            width: fit-content;
+            min-width: 300px;
+            font-size: 1.1em;
         }
