@@ -1,4 +1,12 @@
 
+
+
+
+        h1{
+            color: #1C5D99;
+            
+
+        }
         body{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
@@ -10,12 +18,13 @@
             text-decoration: underline;
             
             background-color: aliceblue;
-            
+            font-style: italic;
         }
 
 
         ul {
             line-height: 25px;
+            
         }
 
         ol {
