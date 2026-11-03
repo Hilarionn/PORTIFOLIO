@@ -36,23 +36,49 @@
         .F1 {
           font-weight: bold;
           color: #1F2937;
+          
         }
 
         h3{
             background-color: lightslategray;
+            text-align: center;
+            border-radius: 5px;
+            padding: 6px;
+            color: white;
         }
 
         .perfil{
             display: flex; /*Coloca a foto e a descrição lado a lado*/
             align-items: center; /*Centraliza os itens verticalmente*/
             gap: 20px; /*Dá um espaço entre os itens de 20px*/
+            width: 500px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            background-color: #eaf6fc;
+            box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15);
+            
+        }
+
+        .perfil ul{
+            list-style: none;
+            color: #333;
+            font-family: monospace;
+            font-size: 1.2em;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .perfil ul li:hover{
+            box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+            background-color: #d1eaf5;;
         }
 
         .perfil img {
-            width: 200px;
-            height: 200px;
+            width: 130px;
+            height: 130px;
             object-fit: cover; /*Ajusta a foto sem distorcer*/
-            border-radius: 10px;
+            border-radius: 50%;
         }
 
         .descricao{
