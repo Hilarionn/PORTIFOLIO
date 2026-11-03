@@ -16,10 +16,12 @@
         }
         #desenv{
             text-decoration: underline;
-            
+            text-align: center;
             background-color: aliceblue;
             font-style: italic;
-        }
+            font-size: 1em;
+            text-align: center;
+            }
 
 
         ul {
@@ -40,13 +42,6 @@
             background-color: lightslategray;
         }
 
-        li:hover{
-            background-color: lightblue;
-            width: fit-content;
-            min-width: 300px;
-            font-size: 1.1em;
-        }
-
         .perfil{
             display: flex; /*Coloca a foto e a descrição lado a lado*/
             align-items: center; /*Centraliza os itens verticalmente*/
@@ -54,12 +49,19 @@
         }
 
         .perfil img {
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
             object-fit: cover; /*Ajusta a foto sem distorcer*/
             border-radius: 10px;
         }
 
         .descricao{
             flex: 1;
+        }
+
+        .click:hover {
+            background-color: lightblue;
+            width: fit-content;
+            min-width: 300px;
+            font-size: 1.1em;
         }
