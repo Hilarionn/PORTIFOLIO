@@ -46,3 +46,20 @@
             min-width: 300px;
             font-size: 1.1em;
         }
+
+        .perfil{
+            display: flex; /*Coloca a foto e a descrição lado a lado*/
+            align-items: center; /*Centraliza os itens verticalmente*/
+            gap: 20px; /*Dá um espaço entre os itens de 20px*/
+        }
+
+        .perfil img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover; /*Ajusta a foto sem distorcer*/
+            border-radius: 10px;
+        }
+
+        .descricao{
+            flex: 1;
+        }
