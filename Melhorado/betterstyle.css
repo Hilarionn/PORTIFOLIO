@@ -1,6 +1,9 @@
 body{
     background-color: #E6ECF2;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    
 }
 
 /*========== CABEÇALHO ==========*/
@@ -43,8 +46,10 @@ margin-left: 80px;
 .perfil{
     display: flex;
     align-items: center;
-    background-color: whitesmoke;
-    gap: 20px
+    background-color: #E0E0E0;
+    gap: 30px;
+    justify-content: center;
+  
 }
 
 .perfil img{
@@ -84,7 +89,52 @@ margin-left: 80px;
 .botao{
     background-color: #3b82e6;
     width: fit-content;
-    border: 1px solid black;
-    padding;
     border-radius: 5px;
+    color: white;
+    padding: 15px;
+}
+
+.botao:hover{
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*========== INFORMAÇÕES PROFISSIONAIS ==========*/
+
+
+.conteudo {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.conteudo h2{
+    text-align: center;
+    color:#103554;
+    font-size: 2em;
+    text-decoration: underline;
+    
+    
+}
+
+.trajetoria ul{
+    list-style: none;
+}
+
+
+.caixas{
+    display: flex;
+    gap: 20px;
+    
+}
+
+/*Experiencia, Tecnologias, Formacao */
+
+.Box{
+    background-color:#E0E0E0;
+    flex: 1;
+    margin:0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
 }
