@@ -1,0 +1,90 @@
+body{
+    background-color: #E6ECF2;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*========== CABEÇALHO ==========*/
+.cabecalho{
+    background-color: #103554;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cabecalho h2{
+color: white;
+margin-left: 80px;
+}
+.cabecalho h2 span {
+    color: #3b82e6;
+}
+
+.cabecalho ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: white;
+    box-sizing: border-box;
+    margin-right: 80px;
+}
+
+.cabecalho ul li:hover{
+    color: #3b82e6;
+    text-decoration: underline;
+    cursor:pointer;
+    text-underline-offset: 10px;
+    font-weight: bold;
+}
+
+/*========== PERFIL ==========*/
+
+
+.perfil{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 20px
+}
+
+.perfil img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 6px solid white;
+}
+
+.perfil .descricao > p:first-child {
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#suporte{
+    color: #103554;
+    font-size: 0.5em;
+    margin: 0%;
+}
+.paragrafo{
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Hilarion{
+    color: #3b82e6;
+}
+
+#ola{
+    color: #808080;
+    font-family: monospace;
+    font-size: 0.7em;
+}
+
+.botao{
+    background-color: #3b82e6;
+    width: fit-content;
+    border: 1px solid black;
+    padding;
+    border-radius: 5px;
+}
