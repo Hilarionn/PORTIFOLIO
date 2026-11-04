@@ -4,7 +4,6 @@
 
         h1{
             color: #1C5D99;
-            
 
         }
         body{
@@ -57,7 +56,12 @@
             border-radius: 12px;
             background-color: #eaf6fc;
             box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15);
-            
+        }
+
+        .perfil:hover{
+                        box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
+            background-color: #d1eaf5;
+            box-sizing: 1.2em;
         }
 
         .perfil ul{
@@ -69,9 +73,10 @@
             margin: 0%;
         }
 
-        .perfil ul li:hover{
-            box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.80);
-            background-color: #d1eaf5;;
+        .descricao ul li:hover {
+            border-bottom: 1px solid black;
+            font-weight: bold;
+            cursor: pointer;
         }
 
         .perfil img {
@@ -79,6 +84,8 @@
             height: 130px;
             object-fit: cover; /*Ajusta a foto sem distorcer*/
             border-radius: 50%;
+            /*border: 4px solid #4a90b8;*/
+            border: 4px solid blue
         }
 
         .descricao{
